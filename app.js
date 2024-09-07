@@ -67,17 +67,17 @@
 
 
 
-// const numbers = [5, 10, 15]
+const numbers = [5, 10, 15]
 
-// let sum = 0
+let sum = 0
 
-// for (let i = 0; i < numbers.length; i++){
-//     sum += numbers[i];
-//     }
-//     console.log(sum);
+for (let i = 0; i < numbers.length; i++){
+    sum += numbers[i];
+    }
+    console.log(sum);
 
-//     let sum2 = numbers.reduce((acc, cur)=> acc + cur, 0)
-//     console.log(sum2);
+    let sum2 = numbers.reduce((acc, cur)=> acc + cur, 0)
+    console.log(sum2);
     
     
 
@@ -87,17 +87,16 @@
 
 
 
-const numbers = [5, 10, 15, 20, 253]
+// const numbers = [5, 10, 15, 20, 253]
 
-const reversedArray = []
+// const reversedArray = []
 
-for(let i = numbers.length - 1; i >= 0; i--) {
+// for(let i = numbers.length - 1; i >= 0; i--) {
   
-  reversedArray.push(numbers[i])
-}
+//   reversedArray.push(numbers[i])
+// }
 
-console.log(reversedArray);
-
+// console.log(reversedArray);
 
 
 
