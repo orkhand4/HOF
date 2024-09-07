@@ -87,16 +87,16 @@
 
 
 
-// const numbers = [5, 10, 15, 20, 253]
+const numbers = [5, 10, 15, 20, 253]
 
-// const reversedArray = []
+const reversedArray = []
 
-// for(let i = numbers.length - 1; i >= 0; i--) {
+for(let i = numbers.length - 1; i >= 0; i--) {
   
-//   reversedArray.push(numbers[i])
-// }
+  reversedArray.push(numbers[i])
+}
 
-// console.log(reversedArray);
+console.log(reversedArray);
 
 
 
@@ -105,9 +105,9 @@
 
 
 
-const numbers = [5, 10, 15, 20, 253]
+// const numbers = [5, 10, 15, 20, 253]
 
-let isBigger = numbers.every(item => item < 0)
-console.log(isBigger);
+// let isBigger = numbers.every(item => item < 0)
+// console.log(isBigger);
 
 
