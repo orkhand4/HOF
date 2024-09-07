@@ -47,19 +47,19 @@
 
 // 5-den boyuk ededi tap
 
-// let newNumber
-// for (let i = 0; i < numbers.length; i++){
-//     if (numbers[i] > 5){
-//       newNumber = numbers[i]
-//       break
-//     }
-// }
-// console.log(newNumber);
+let newNumber
+for (let i = 0; i < numbers.length; i++){
+    if (numbers[i] > 5){
+      newNumber = numbers[i]
+      break
+    }
+}
+console.log(newNumber);
 
 
 
-// let num = numbers.find(item => item > 5)
-// console.log(num);
+let num = numbers.find(item => item > 5)
+console.log(num);
 
 
 
@@ -67,17 +67,17 @@
 
 
 
-const numbers = [5, 10, 15]
+// const numbers = [5, 10, 15]
 
-let sum = 0
+// let sum = 0
 
-for (let i = 0; i < numbers.length; i++){
-    sum += numbers[i];
-    }
-    console.log(sum);
+// for (let i = 0; i < numbers.length; i++){
+//     sum += numbers[i];
+//     }
+//     console.log(sum);
 
-    let sum2 = numbers.reduce((acc, cur)=> acc + cur, 0)
-    console.log(sum2);
+//     let sum2 = numbers.reduce((acc, cur)=> acc + cur, 0)
+//     console.log(sum2);
     
     
 
