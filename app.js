@@ -1,4 +1,4 @@
-// const numbers = [-15, -10, -5, 0, 5, 10, 15]
+const numbers = [-15, -10, -5, 0, 5, 10, 15]
 
 // ededlerin hamisini 2-e vur
 
@@ -31,35 +31,35 @@
 
 //map ile 5-den boyuk ededleri tap ve yeni array-e beraber ele
 
-// let newNumbers = []
-// numbers.map(item => {
-//   if (item > 5) {
-//     newNumbers.push(item)
-//   }
-// })
-// console.log(newNumbers);
+let newNumbers = []
+numbers.map(item => {
+  if (item > 5) {
+    newNumbers.push(item)
+  }
+})
+console.log(newNumbers);
 
-// let newNumbers = numbers.filter(item => item > 5)
-// console.log(newNumbers);
+let newNumbers2 = numbers.filter(item => item > 5)
+console.log(newNumbers2);
 
 
 
 
 // 5-den boyuk ededi tap
 
-let newNumber
-for (let i = 0; i < numbers.length; i++){
-    if (numbers[i] > 5){
-      newNumber = numbers[i]
-      break
-    }
-}
-console.log(newNumber);
+// let newNumber
+// for (let i = 0; i < numbers.length; i++){
+//     if (numbers[i] > 5){
+//       newNumber = numbers[i]
+//       break
+//     }
+// }
+// console.log(newNumber);
 
 
 
-let num = numbers.find(item => item > 5)
-console.log(num);
+// let num = numbers.find(item => item > 5)
+// console.log(num);
 
 
 
